@@ -1,0 +1,8 @@
+apply plugin: 'application'
+
+dependencies {
+    compile project(':project-core')
+}
+
+mainClassName = 'com.test.gradle.web.HelloWorld'
+
